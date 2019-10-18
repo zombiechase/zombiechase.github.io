@@ -32,7 +32,7 @@
   	},
 		"page": {
   		"id": 4,
-  		"story": "A window breaks downstairs and you hear growling, you call out “Willie is that you?” but only more growling. You get out of bed and go see what it is. Oh no! you have been eaten by a zombie!",
+  		"story": "A window breaks downstairs and you hear growling, you call out “Willie is that you?” but only more growling. You get out of bed and go see what it is. Oh no! you have been eaten by a zombie! The End.",
   		"imageURL": "images/page2.jpg",
   		"audio": "audio/audio2.mp3",
     	"choice1":
@@ -42,7 +42,7 @@
   	},
 		"page": {
   		"id": 5,
-  		"story": "You go back inside the house because it is dark.  You feel safe inside but soon you hear growling.  You call out \"Willie?"\" but no answer you slowly open the door only to have it pushed open and see a Zombie at your door! You have been caught and eaten by a zombie!",
+  		"story": "You go back inside the house because it is dark.  You feel safe inside but soon you hear growling.  You call out \"Willie?"\" but no answer you slowly open the door only to have it pushed open and see a Zombie at your door! You have been caught and eaten by a zombie! The End.",
   		"imageURL": "images/page2.jpg",
   		"audio": "audio/audio2.mp3",
     	"choice1":
@@ -62,7 +62,7 @@
   	},
 		"page": {
   		"id": 7,
-  		"story": "You decide to investigate. You turn on your flashlight and shine it at the bushes. MEOW! Phew it was just a cat. You turn around and come face to face with a Zombie. The Zombie eats you.",
+  		"story": "You decide to investigate. You turn on your flashlight and shine it at the bushes. MEOW! Phew it was just a cat. You turn around and come face to face with a Zombie. The Zombie eats you. The End.",
   		"imageURL": "images/page2.jpg",
   		"audio": "audio/audio2.mp3",
     	"choice1":
@@ -82,7 +82,7 @@
   	},
 		"page": {
   		"id": 9,
-  		"story": "You walk through the gate. The gate leads to the city park. You look for somewhere to hide. There are only swings and a few trees at this park. Do you climb a tree?",
+  		"story": "You walk through the gate. The gate leads to the city park. You look for somewhere to hide. There are only swings and a few trees in this park. Do you climb a tree?",
   		"imageURL": "images/page2.jpg",
   		"audio": "audio/audio2.mp3",
     	"choice1":
@@ -92,7 +92,7 @@
   	},
 	"page": {
   		"id": 10,
-  		"story": "You rush for the empty street. You are not fast enough. A Zombie grabs you and eats you. The End",
+  		"story": "You rush for the empty street. You are not fast enough. A Zombie grabs you and eats you. The End.",
   		"imageURL": "images/page2.jpg",
   		"audio": "audio/audio2.mp3",
     	"choice1":
@@ -102,7 +102,7 @@
   	},
 	"page": {
   		"id": 11,
-  		"story": "You try to hide behind the swings. The zombie finds you and eats you. The End",
+  		"story": "You try to hide behind the swings. The zombie finds you and eats you. The End.",
   		"imageURL": "images/page2.jpg",
   		"audio": "audio/audio2.mp3",
     	"choice1":
@@ -132,7 +132,7 @@
   	},
 	"page": {
   		"id": 14,
-  		"story": "You found Willie!  He runs to your arms happily licking you and find out that there is a movie studio filming a movie in town.  No wonder you saw all those strange creatures walking everywhere.",
+  		"story": "You found Willie!  He runs to your arms happily licking you and find out that there is a movie studio filming a movie in town.  No wonder you saw all those strange creatures walking everywhere. The End.",
   		"imageURL": "images/page2.jpg",
   		"audio": "audio/audio2.mp3",
     	"choice1":
