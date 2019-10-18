@@ -102,7 +102,7 @@
   	},
 	"page": {
   		"id": 11,
-  		"story": "ou try to hide behind the swings. The zombie finds you and eats you. The End",
+  		"story": "You try to hide behind the swings. The zombie finds you and eats you. The End",
   		"imageURL": "images/page2.jpg",
   		"audio": "audio/audio2.mp3",
     	"choice1":
