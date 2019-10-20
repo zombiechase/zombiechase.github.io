@@ -63,6 +63,7 @@ main div {
     height: 180px;
     line-height: 180px;
     border-radius: 10px;
+    cursor: pointer;
     background: #7900e2; /* Old browsers */
     background: -moz-linear-gradient(top, #7900e2 100%, #7db9e8 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top, #7900e2 100%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
@@ -77,6 +78,7 @@ main div {
     height: 180px;
     line-height: 180px;
     border-radius: 10px;
+    cursor: pointer;
     background: #7900e2; /* Old browsers */
     background: -moz-linear-gradient(top, #7900e2 100%, #7db9e8 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top, #7900e2 100%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
