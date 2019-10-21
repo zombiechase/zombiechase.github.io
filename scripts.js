@@ -22,7 +22,7 @@ storyObject.choice1 = myData[0].choice1;
 storyObject.choice2 = myData[0].choice2;
 
 document.getElementById("story").innerHTML = storyObject.story;
-document.getElementById("image").innerHTML = storyObject.image;
+/*document.getElementById("image").innerHTML = storyObject.image;*/
 document.getElementById("option1").innerHTML = storyObject.choice1.label;
 document.getElementById("option2").innerHTML = storyObject.choice2.label;
 
