@@ -119,7 +119,7 @@ function topScores() {
 	if(storyObject.topScores.length > 5) {storyObject.topScores.pop();}
 
 	//Create the top scores String
-	var scores = "<h3>You scored: " + storyObject.currentScore + " points! Well done.</h3><br>Your Top Scores:<br>";
+	var scores = "<h3>You scored " + storyObject.currentScore + " points! Well done.</h3><br>Your Top Scores:<br>";
 	for (i=0; i<5; i++) {
 		scores += (i+1) + ". " + storyObject.topScores[i] + "<br>";
 	}
