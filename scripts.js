@@ -11,14 +11,12 @@ function playSnd() {
 }
 
 var storyObject = {
-	id: "", /*ADDED TO IDENTIFY STORY ENDINGS*/
 	story: "",
 	image: "",
 	choice1: { newPageID: 0, label: "" },
 	choice2: { newPageID: 0, label: "" }
 };
 
-storyObject.id = myData[0].id;
 storyObject.story = myData[0].story;
 storyObject.image = myData[0].imageURL;
 storyObject.choice1 = myData[0].choice1;
