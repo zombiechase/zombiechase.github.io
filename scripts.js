@@ -29,7 +29,6 @@ document.getElementById("story").innerHTML = storyObject.story;
 document.getElementById("option1").innerHTML = storyObject.choice1.label;
 document.getElementById("option2").innerHTML = storyObject.choice2.label;
 
-
 function option1() {
 	var newOption = storyObject.choice1.newPageID;
 	storyObject.story = myData[newOption].story;
