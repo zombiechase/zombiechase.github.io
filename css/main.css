@@ -89,6 +89,20 @@ main div {
     box-shadow: inset 0 0 10px rgba(0,0,0,0.75);
 }
 
+#reload {
+    width: 20%;
+    background: #77e000; /* Old browsers */
+    background: -moz-linear-gradient(top, #77e000 100%, #4f4f4f 100%, #4f4f4f 100%, #000000 100%, #000000 100%, #7db9e8 100%, #7db9e8 100%, #7db9e8 100%, #7db9e8 100%, #7db9e8 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #77e000 100%,#4f4f4f 100%,#4f4f4f 100%,#000000 100%,#000000 100%,#7db9e8 100%,#7db9e8 100%,#7db9e8 100%,#7db9e8 100%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #77e000 100%,#4f4f4f 100%,#4f4f4f 100%,#000000 100%,#000000 100%,#7db9e8 100%,#7db9e8 100%,#7db9e8 100%,#7db9e8 100%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#77e000', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */   
+    margin-left: 0 auto;
+    margin-right: 0 auto;    
+    font-weight: bold;
+    height: auto;
+    display: none;
+}
+
 /***********************************************
 *                   TABLET                     *
 ***********************************************/
