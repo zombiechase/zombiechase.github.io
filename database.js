@@ -2,7 +2,7 @@ var myData = [{
       id: 0,
   		story: "You call out for your dog in the back yard to come inside but he does not come in. You start to wonder where he could be. Do you go look for him?",
   		imageURL: "images/page1.jpg",
-  		audio: "audio/audio1.mp3",
+  		audio: "/audio/1_callout.m4a",
     	choice1:
       		{newPageID: 1, label: "Yes"},
     	choice2:
@@ -12,7 +12,7 @@ var myData = [{
       id: 1,
       story: "You decide to go to bed and hope he shows up in the morning.  You hear sounds outside. Do you go look?",
       imageURL: "images/page2.jpg",
-      audio: "audio/audio2.mp3",
+      audio: "/audio/2_goToBed.m4a",
       choice1:
           {newPageID: 4, label: "Don't do it"},
       choice2:
