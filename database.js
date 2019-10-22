@@ -34,9 +34,9 @@ var myData = [{
       imageURL: "images/page2.jpg",
       audio: "audio/audio2.mp3",
       choice1:
-          {newPageID: 0, label: "Return to Start"},
+          {newPageID: 14, label: "End Game"},
       choice2:
-          {newPageID: 0, label: ""}     
+          {newPageID: 14, label: ""}     
     },
     {
       id: 4,
@@ -44,9 +44,9 @@ var myData = [{
       imageURL: "images/page2.jpg",
       audio: "audio/audio2.mp3",
       choice1:
-          {newPageID: 0, label: "Return to Start"},
+          {newPageID: 14, label: "End Game"},
       choice2:
-          {newPageID: 0, label: ""}     
+          {newPageID: 14, label: ""}     
     },
     {
       id: 5,
@@ -64,9 +64,9 @@ var myData = [{
       imageURL: "images/page2.jpg",
       audio: "audio/audio2.mp3",
       choice1:
-          {newPageID: 0, label: "Return to Start"},
+          {newPageID: 14, label: "End Game"},
       choice2:
-          {newPageID: 0, label: ""}     
+          {newPageID: 14, label: ""}     
     },
     {
       id: 7,
@@ -94,9 +94,9 @@ var myData = [{
       imageURL: "images/page2.jpg",
       audio: "audio/audio2.mp3",
       choice1:
-          {newPageID: 0, label: "Return to Start"},
+          {newPageID: 14, label: "End Game"},
       choice2:
-          {newPageID: 0, label: ""}     
+          {newPageID: 14, label: ""}     
     },
     {
       id: 10,
@@ -104,9 +104,9 @@ var myData = [{
       imageURL: "images/page2.jpg",
       audio: "audio/audio2.mp3",
       choice1:
-          {newPageID: 0, label: "Return to Start"},
+          {newPageID: 14, label: "End Game"},
       choice2:
-          {newPageID: 0, label: ""}     
+          {newPageID: 14, label: ""}     
     },
     {
       id: 11,
@@ -114,7 +114,7 @@ var myData = [{
       imageURL: "images/page2.jpg",
       audio: "audio/audio2.mp3",
       choice1:
-          {newPageID: 14, label: "Yes"},
+          {newPageID: 12, label: "Yes"},
       choice2:
           {newPageID: 13, label: "No"}      
     },
@@ -124,9 +124,9 @@ var myData = [{
       imageURL: "images/page2.jpg",
       audio: "audio/audio2.mp3",
       choice1:
-          {newPageID: 0, label: "Return to Start"},
+          {newPageID: 14, label: "End Game"},
       choice2:
-          {newPageID: 0, label: ""}     
+          {newPageID: 14, label: ""}     
     },
     {
       id: 13,
@@ -134,8 +134,18 @@ var myData = [{
       imageURL: "images/page2.jpg",
       audio: "audio/audio2.mp3",
       choice1:
-          {newPageID: 0, label: "Congratulations"},
+          {newPageID: 14, label: "Congratulations You Win!"},
       choice2:
-          {newPageID: 0, label: "You Win!"}     
+          {newPageID: 14, label: "End Game"}     
+    },
+    {
+      id: 14,
+      story: "Your Top Scores<br><br>",
+      imageURL: "",
+      audio: "",
+      choice1:
+          {newPageID: 0, label: "Return to Start"},
+      choice2:
+          {newPageID: 0, label: ""}     
     }
 ];
