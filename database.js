@@ -4,9 +4,9 @@ var myData = [{
   		imageURL: "images/page1.jpg",
   		audio: "/audio/1_callout.m4a",
     	choice1:
-      		{newPageID: 1, label: "Yes"},
+      		{newPageID: 2, label: "Yes"},
     	choice2:
-      		{newPageID: 2, label: "No"}  		
+      		{newPageID: 1, label: "No"}  		
   	},
     {
       id: 1,
@@ -14,9 +14,9 @@ var myData = [{
       imageURL: "images/page2.jpg",
       audio: "/audio/2_goToBed.m4a",
       choice1:
-          {newPageID: 4, label: "Don't do it"},
+          {newPageID: 2, label: "Yes"},
       choice2:
-          {newPageID: 5, label: "No"}
+          {newPageID: 3, label: "No"}
     },
     {
       id: 2,
@@ -24,9 +24,9 @@ var myData = [{
       imageURL: "images/page2.jpg",
       audio: "audio/audio2.mp3",
       choice1:
-          {newPageID: 6, label: "Run away"},
+          {newPageID: 5, label: "Yes"},
       choice2:
-          {newPageID: 7, label: "No"}     
+          {newPageID: 4, label: "No"}     
     },
     {
       id: 3,
@@ -54,9 +54,9 @@ var myData = [{
       imageURL: "images/page2.jpg",
       audio: "audio/audio2.mp3",
       choice1:
-          {newPageID: 8, label: "Yes"},
+          {newPageID: 7, label: "Yes"},
       choice2:
-          {newPageID: 7, label: "No"}     
+          {newPageID: 6, label: "No"}     
     },
     {
       id: 6,
@@ -74,9 +74,9 @@ var myData = [{
       imageURL: "images/page2.jpg",
       audio: "audio/audio2.mp3",
       choice1:
-          {newPageID: 10, label: "Yes"},
+          {newPageID: 9, label: "Yes"},
       choice2:
-          {newPageID: 9, label: "No"}     
+          {newPageID: 8, label: "No"}     
     },
     {
       id: 8,
@@ -84,9 +84,9 @@ var myData = [{
       imageURL: "images/page2.jpg",
       audio: "audio/audio2.mp3",
       choice1:
-          {newPageID: 12, label: "Yes"},
+          {newPageID: 11, label: "Yes"},
       choice2:
-          {newPageID: 11, label: "No"}      
+          {newPageID: 10, label: "No"}      
     },
     {
       id: 9,
@@ -114,9 +114,9 @@ var myData = [{
       imageURL: "images/page2.jpg",
       audio: "audio/audio2.mp3",
       choice1:
-          {newPageID: 12, label: "Yes"},
+          {newPageID: 13, label: "Yes"},
       choice2:
-          {newPageID: 13, label: "No"}      
+          {newPageID: 12, label: "No"}      
     },
     {
       id: 12,
