@@ -115,15 +115,15 @@ function endScreen(newOption) {
 function topScores() {
 	//Add current score to the top scores, sort them, and only keep top 5
 	storyObject.topScores.push(storyObject.currentScore);
-	storyObject.currentScore = 0;
 	storyObject.topScores.sort(function(a, b){return b - a});
 	if(storyObject.topScores.length > 5) {storyObject.topScores.pop();}
 
 	//Create the top scores String
-	var scores = "";
+	var scores = "<h3>You scored: " + storyObject.currentScore + " points! Well done.</h3><br><br>Your Top Scores:<br>";
 	for (i=0; i<5; i++) {
 		scores += (i+1) + ". " + storyObject.topScores[i] + "<br>";
 	}
 	scores += "<br>";
+	storyObject.currentScore = 0;
 	return scores;
 }
