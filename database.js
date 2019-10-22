@@ -140,7 +140,7 @@ var myData = [{
     },
     {
       id: 14,
-      story: "Your Top Scores<br><br>",
+      story: "",
       imageURL: "",
       audio: "",
       choice1:
