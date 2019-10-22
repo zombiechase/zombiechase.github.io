@@ -32,7 +32,6 @@ document.getElementById("option2").innerHTML = storyObject.choice2.label;
 
 function option1() {
 	var newOption = storyObject.choice1.newPageID;
-	storyObject.id = myData[newOption].id;
 	storyObject.story = myData[newOption].story;
 	/*storyObject.image = myData[newOption].imageURL;*/
 	storyObject.choice1 = myData[newOption].choice1;
@@ -46,7 +45,6 @@ function option1() {
 
 function option2() {
 	var newOption = storyObject.choice2.newPageID;
-	storyObject.id = myData[newOption].id;
 	storyObject.story = myData[newOption].story;
 	/*storyObject.image = myData[newOption].imageURL;*/
 	storyObject.choice1 = myData[newOption].choice1;
@@ -56,9 +54,4 @@ function option2() {
 	/*document.getElementById("image").innerHTML = storyObject.image;*/
 	document.getElementById("option1").innerHTML = storyObject.choice1.label;
 	document.getElementById("option2").innerHTML = storyObject.choice2.label;
-}
-
-/*TRYING TO SHOW BUTTON WHEN WE GET TO AN ENDING. NOT WORKING AS OF NOW*/
-if (storyObject.id == 3 || storyObject.id == 4 || storyObject.id == 6 || storyObject.id == 9 || storyObject.id == 10 || storyObject.id == 12 || storyObject.id == 13) {
-	document.getElementById("reload").style.display = block;
 }
