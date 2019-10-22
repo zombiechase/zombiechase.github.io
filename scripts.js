@@ -12,7 +12,7 @@ storyObject.audio = myData[0].audio;
 storyObject.choice1 = myData[0].choice1;
 storyObject.choice2 = myData[0].choice2;
 
-/*PLAY AUDIO*/
+/*PLAY AUDIO FIRST TIME. SAME LOGIC WILL APPLY AT DECISION TIME*/
 var sound = new Audio(storyObject.audio);
 sound.play();
 
