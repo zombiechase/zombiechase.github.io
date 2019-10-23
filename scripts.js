@@ -17,7 +17,7 @@ var storyObject = {
 
 //Initialize storyObject with the start of the story
 storyObject.story = myData[0].story;
-/*storyObject.image = myData[0].imageURL;*/
+storyObject.image = myData[0].imageURL;
 storyObject.audio = myData[0].audio;
 storyObject.choice1 = myData[0].choice1;
 storyObject.choice2 = myData[0].choice2;
@@ -27,7 +27,7 @@ playAudio();
 
 //Fill the page with the current information in storyObject
 document.getElementById("story").innerHTML = storyObject.story;
-/*document.getElementById("image").innerHTML = storyObject.image;*/
+document.getElementById("image").src = storyObject.image;
 document.getElementById("option1").innerHTML = storyObject.choice1.label;
 document.getElementById("option2").innerHTML = storyObject.choice2.label;
 
@@ -68,7 +68,7 @@ function option2() {
 function fillPage(newOption) {
 	//Get all of the information for the next page
 	storyObject.story = myData[newOption].story;
-	/*storyObject.image = myData[newOption].imageURL;*/
+	storyObject.image = myData[newOption].imageURL;
 	storyObject.audio = myData[newOption].audio;
 	storyObject.choice1 = myData[newOption].choice1;
 	storyObject.choice2 = myData[newOption].choice2;
@@ -76,7 +76,7 @@ function fillPage(newOption) {
 
 	//Fill the page with the new story information
 	document.getElementById("story").innerHTML = storyObject.story;
-	/*document.getElementById("image").innerHTML = storyObject.image;*/
+	document.getElementById("image").src = storyObject.image;
 	document.getElementById("option1").innerHTML = storyObject.choice1.label;
 	document.getElementById("option2").innerHTML = storyObject.choice2.label;
 
@@ -94,7 +94,7 @@ function playAudio() {
 function endScreen(newOption) {
 	//Get all of the information for the next page
 	storyObject.story = myData[newOption].story;
-	/*storyObject.image = myData[newOption].imageURL;*/
+	storyObject.image = myData[newOption].imageURL;
 	storyObject.audio = myData[newOption].audio;
 	storyObject.choice1 = myData[newOption].choice1;
 	storyObject.choice2 = myData[newOption].choice2;
@@ -106,7 +106,7 @@ function endScreen(newOption) {
 
 	//Fill the page with the new story information
 	document.getElementById("story").innerHTML = storyObject.story + scoreString;
-	/*document.getElementById("image").innerHTML = storyObject.image;*/
+	document.getElementById("image").src = storyObject.image;
 	document.getElementById("option1").innerHTML = storyObject.choice1.label;
 	document.getElementById("option2").innerHTML = storyObject.choice2.label;
 }

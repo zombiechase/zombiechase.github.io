@@ -40,6 +40,13 @@ main div {
     font-weight: bold;
 }
 
+img#image {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #story {
     background: #77e000; /* Old browsers */
     background: -moz-linear-gradient(top, #77e000 100%, #4f4f4f 100%, #4f4f4f 100%, #000000 100%, #000000 100%, #7db9e8 100%, #7db9e8 100%, #7db9e8 100%, #7db9e8 100%, #7db9e8 100%); /* FF3.6-15 */
@@ -120,5 +127,7 @@ main div {
 *                   DESKTOP                    *
 ***********************************************/
 @media only screen and (min-width: 60em){
-    
+    img#image {
+        width: 20%;
+    }
 }
