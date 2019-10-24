@@ -51,7 +51,7 @@ var myData = [{
     {
       id: 5,
       story: "You grab a flashlight and head down the street. As you pass the house next door you hear a rustling sound coming from the bushes. Do you hide?",
-      imageURL: "images/page2.jpg",
+      imageURL: "images/page5.png",
       audio: "audio/audio2.mp3",
       choice1:
           {newPageID: 7, label: "Yes"},
@@ -71,7 +71,7 @@ var myData = [{
     {
       id: 7,
       story: "You duck behind a parked car. Just as a cat runs out from behind the bush and is grabbed by a Zombie. You see a gate open to your left and a street on the right. Which way should you go? Do you go down the street?",
-      imageURL: "images/page2.jpg",
+      imageURL: "images/page7.png",
       audio: "audio/audio2.mp3",
       choice1:
           {newPageID: 9, label: "Yes"},
@@ -81,7 +81,7 @@ var myData = [{
     {
       id: 8,
       story: "You walk through the gate. The gate leads to the city park. You look for somewhere to hide. There are only swings and a few trees in this park. Do you climb a tree?",
-      imageURL: "images/page2.jpg",
+      imageURL: "images/page8.png",
       audio: "audio/audio2.mp3",
       choice1:
           {newPageID: 11, label: "Yes"},
@@ -111,7 +111,7 @@ var myData = [{
     {
       id: 11,
       story: "You climb a big tree and hide in the branches. The zombie passes by and leaves the park. From the top of the tree you can see a tail poking out from behind a tree. Do you call for Willie?",
-      imageURL: "images/page2.jpg",
+      imageURL: "images/page11.png",
       audio: "audio/audio2.mp3",
       choice1:
           {newPageID: 13, label: "Yes"},
@@ -131,7 +131,7 @@ var myData = [{
     {
       id: 13,
       story: "You found Willie!  He runs to your arms happily licking you and find out that there is a movie studio filming a movie in town.  No wonder you saw all those strange creatures walking everywhere. The End.",
-      imageURL: "images/page2.jpg",
+      imageURL: "images/page13.png",
       audio: "audio/audio2.mp3",
       choice1:
           {newPageID: 14, label: "Congratulations You Win!"},
