@@ -22,9 +22,6 @@ storyObject.audio = myData[0].audio;
 storyObject.choice1 = myData[0].choice1;
 storyObject.choice2 = myData[0].choice2;
 
-//Play the audio for the next story
-playAudio();
-
 //Fill the page with the current information in storyObject
 document.getElementById("story").innerHTML = storyObject.story;
 document.getElementById("image").src = storyObject.image;
@@ -79,15 +76,19 @@ function fillPage(newOption) {
 	document.getElementById("image").src = storyObject.image;
 	document.getElementById("option1").innerHTML = storyObject.choice1.label;
 	document.getElementById("option2").innerHTML = storyObject.choice2.label;
-
-	//Play the audio for the next story
-	playAudio();
 }
 
 //Plays the audio for the current page
 function playAudio() {
 	var sound = new Audio(storyObject.audio);
-	sound.play();
+	var status = document.getElementById("audioLabel").innerHTML;
+	if (status == "Play Audio") {
+		sound.play();
+		document.getElementById("audioLabel").innerHTML = "Stop Playing"
+	} else {
+		sound.pause();
+		document.getElementById("audioLabel").innerHTML = "Play Audio"
+	}
 }
 
 //On game over, show the high score screen
