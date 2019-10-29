@@ -79,9 +79,14 @@ function fillPage(newOption) {
 }
 
 //Plays the audio for the current page
+
+var	sound = new Audio(storyObject.audio);
+
 function playAudio() {
-	var sound = new Audio(storyObject.audio);
-	var status = document.getElementById("audioLabel").innerHTML;
+
+	var status = "";
+	status = document.getElementById("audioLabel").innerHTML;
+
 	if (status == "Play Audio") {
 		sound.play();
 		document.getElementById("audioLabel").innerHTML = "Stop Playing"
@@ -89,7 +94,7 @@ function playAudio() {
 		sound.pause();
 		document.getElementById("audioLabel").innerHTML = "Play Audio"
 	}
-}
+};
 
 //On game over, show the high score screen
 function endScreen(newOption) {
