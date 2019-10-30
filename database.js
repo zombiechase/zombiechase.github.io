@@ -128,6 +128,26 @@ var myData = [{
       choice2:
           {newPageID: 14, label: ""}     
     },
+                  {
+      id: 13,
+      story: "You found Willie!  He runs to your arms happily licking you and find out that there is a movie studio filming a movie in town.  No wonder you saw all those strange creatures walking everywhere. The End.",
+      imageURL: "images/page13.png",
+      audio: "audio/14_foundWillie.m4a", 
+      choice1:
+          {newPageID: 14, label: "Congratulations You Win!"},
+      choice2:
+          {newPageID: 14, label: "End Game"}     
+    },
+    {
+      id: 14,
+      story: "",
+      imageURL: "",
+      audio: "",
+      choice1:
+          {newPageID: 0, label: "Return to Start"},
+      choice2:
+          {newPageID: 0, label: ""}     
+    },
     {
       id: 15,
       story: "You hear a bark and climb down the tree. You move towards where you think you heard Willie.  You see several zombies walking in the parking lot ahead of you.   You might be able to get past them if you act like a Zombie too or you could take a longer way to avoid them. Do you pretend to be a Zombie?",
@@ -187,25 +207,6 @@ var myData = [{
           {newPageID: 14, label: "End Game"},
       choice2:
           {newPageID: 14, label: ""}     
-    },
-    {
-      id: 13,
-      story: "You found Willie!  He runs to your arms happily licking you and find out that there is a movie studio filming a movie in town.  No wonder you saw all those strange creatures walking everywhere. The End.",
-      imageURL: "images/page13.png",
-      audio: "audio/14_foundWillie.m4a", 
-      choice1:
-          {newPageID: 14, label: "Congratulations You Win!"},
-      choice2:
-          {newPageID: 14, label: "End Game"}     
-    },
-    {
-      id: 14,
-      story: "",
-      imageURL: "",
-      audio: "",
-      choice1:
-          {newPageID: 0, label: "Return to Start"},
-      choice2:
-          {newPageID: 0, label: ""}     
     }
+
 ];
