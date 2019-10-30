@@ -114,7 +114,7 @@ var myData = [{
       imageURL: "images/page11.png",
       audio: "audio/12_treeCallout.m4a",
       choice1:
-          {newPageID: 13, label: "Yes"},
+          {newPageID: 15, label: "Yes"},
       choice2:
           {newPageID: 12, label: "No"}      
     },
@@ -124,6 +124,66 @@ var myData = [{
       imageURL: "images/page12.png",
       audio: "audio/13_porchEnd.m4a",
       choice1:
+          {newPageID: 14, label: "End Game"},
+      choice2:
+          {newPageID: 14, label: ""}     
+    },
+    {
+      id: 15,
+      story: "You hear a bark and climb down the tree. You move towards where you think you heard Willie.  You see several zombies walking in the parking lot ahead of you.   You might be able to get past them if you act like a Zombie too or you could take a longer way to avoid them. Do you pretend to be a Zombie?",
+      imageURL: "",
+      audio: "",
+      choice1:
+          {newPageID: 17, label: "Yes"},
+      choice2:
+          {newPageID: 16, label: "No"}     
+    },
+      {
+      id: 16,
+      story: "You make your way around the parking lot but you come to an open area with no place to hide. You are quickly spotted by a Zombie and he eats you.  The End. ",
+      imageURL: "",
+      audio: "",
+      choice1:
+          {newPageID: 14, label: "End Game"},
+      choice2:
+          {newPageID: 14, label: ""}     
+    },
+      {
+         id: 17,
+      story: "You make yourself look messy and start to lurch across the parking lot.  You hear a Zombie say \"Brains!\"  you repeat back to him \"Brains?\". You keep moving towards where you thought you heard Willie barking. You are safely hidden in an alleyway. Do you call out for Willie?",
+      imageURL: "",
+      audio: "",
+      choice1:
+          {newPageID: 19, label: "Yes"},
+      choice2:
+          {newPageID: 18, label: "No"}     
+    },
+    {
+      id: 18,
+      story: "You quickly move down the alleyway to another street.  You think you see Willie just a little farther away. Do you go down the street?",
+      imageURL: "",
+      audio: "",
+      choice1:
+          {newPageID: 13, label: "Yes"},
+      choice2:
+          {newPageID: 20, label: "No"}     
+    },
+      {
+         id: 19,
+      story: "The Zombie from the parking lot hears you calling out.  He shouts \"Brains!\" and eats you.  The End.",
+      imageURL: "",
+      audio: "",
+    choice1:
+          {newPageID: 14, label: "End Game"},
+      choice2:
+          {newPageID: 14, label: ""}     
+    },
+  {
+     id: 20,
+      story: "You decide to go back down the alley towards the parking lot.  The Zombie sees you..  You are not acting like a Zombie now.  He shouts \"Brains!\" and eats you.  The End.",
+      imageURL: "",
+      audio: "",
+    choice1:
           {newPageID: 14, label: "End Game"},
       choice2:
           {newPageID: 14, label: ""}     
