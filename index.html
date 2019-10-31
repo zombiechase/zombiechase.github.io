@@ -7,9 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut-icon" href="favicon.ico" type="image/x-icon" />
     <link href="https://fonts.googleapis.com/css?family=Creepster%7cIndie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
-    <title>Document</title>
+    <title>Zombie Chase!</title>
 </head>
 <body>
     <header>
@@ -18,12 +19,15 @@
     </header>
 
     <main>
+        <div>
+            <button id="audio" onClick="playAudio()"><span id="audioLabel">Play Audio</span> <i class="fa fa-volume-up"></i></button>
+        </div>
+        <img id="image"></img>
         <div id="story">
-            <p>You call out for your dog in the back yard to come inside but he does not come in. You start to wonder where he could be. <br><br> Will you go look?</p>
         </div>
         <div id="options">
-            <div onclick="option1()" id="option1">Yes</div>
-            <div onclick="option2()" id="option2">No</div>
+            <div onclick="option1()" id="option1"></div>
+            <div onclick="option2()" id="option2"></div>
         </div>
     </main>
 
@@ -33,3 +37,5 @@
     </footer>
 </body>
 </html>
+
+    
