@@ -76,23 +76,25 @@ function fillPage(newOption) {
 	document.getElementById("image").src = storyObject.image;
 	document.getElementById("option1").innerHTML = storyObject.choice1.label;
 	document.getElementById("option2").innerHTML = storyObject.choice2.label;
+
+	sound = new Audio(storyObject.audio);
 }
 
 //Plays the audio for the current page
-
 var	sound = new Audio(storyObject.audio);
 
-function playAudio() {
 
+function playAudio() {
 	var status = "";
 	status = document.getElementById("audioLabel").innerHTML;
 
 	if (status == "Play Audio") {
 		sound.play();
-		document.getElementById("audioLabel").innerHTML = "Stop Playing"
+		document.getElementById("audioLabel").innerHTML = "Stop Playing";
 	} else {
 		sound.pause();
-		document.getElementById("audioLabel").innerHTML = "Play Audio"
+		sound.currentTime = 0;
+		document.getElementById("audioLabel").innerHTML = "Play Audio";
 	}
 };
 
