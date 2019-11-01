@@ -20,7 +20,7 @@ var myData = [{
     },
     {
       id: 2,
-      story: "You walk out to the back yard and call out for your dog. Here boy!  You hear barking down the street, but you think it is moving away from you. Do you go down the street?",
+      story: "You walk out to the back yard and call out for your dog. \"Here boy!\"  You hear barking down the street, but you think it is moving away from you. Do you go down the street?",
       imageURL: "images/page2.png",
       audio: "audio/3_downTheStreet.m4a",
       choice1:
@@ -30,7 +30,7 @@ var myData = [{
     },
     {
       id: 3,
-      story: "A window breaks downstairs and you hear growling, you call out “Willie is that you?” but only more growling. You get out of bed and go see what it is. Oh no! you have been eaten by a zombie! The End.",
+      story: "A window breaks downstairs and you hear growling, you call out \"Willie is that you?\" You only hear more growling. You get out of bed and go see what it is. Oh no! you have been eaten by a zombie! The End.",
       imageURL: "images/page3.png",
       audio: "audio/4_windowEnd.m4a",
       choice1:
@@ -40,7 +40,7 @@ var myData = [{
     },
     {
       id: 4,
-      story: "You go back inside the house because it is dark.  You feel safe inside but soon you hear growling.  You call out Willie? but no answer you slowly open the door only to have it pushed open and see a Zombie at your door! You have been caught and eaten by a zombie! The End.",
+      story: "You go back inside the house because it is dark.  You feel safe inside but soon you hear growling.  You call out, \"Willie?\" but no answer.  You start to open the door only to have it pushed open from outside. You see a Zombie at your door! You have been caught and eaten by a zombie! The End.",
       imageURL: "images/page4.png",
       audio: "audio/5_insideEnd.m4a",
       choice1:
@@ -70,7 +70,7 @@ var myData = [{
     },
     {
       id: 7,
-      story: "You duck behind a parked car. Just as a cat runs out from behind the bush and is grabbed by a Zombie. You see a gate open to your left and a street on the right. Which way should you go? Do you go down the street?",
+      story: "You duck behind a parked car just as a cat runs out from behind the bush and is grabbed by a Zombie. You see a gate open to your left and a street on the right. Which way should you go? Do you go down the street?",
       imageURL: "images/page7.png",
       audio: "audio/8_gateOrStreet.m4a",
       choice1:
@@ -130,7 +130,7 @@ var myData = [{
     },
                   {
       id: 13,
-      story: "You found Willie!  He runs to your arms happily licking you and find out that there is a movie studio filming a movie in town.  No wonder you saw all those strange creatures walking everywhere. The End.",
+      story: "You found Willie!  He runs to your arms happily licking your face.  You find out that there is a movie studio filming a movie in town.  No wonder you saw all those strange creatures walking everywhere. The End.",
       imageURL: "images/page13.png",
       audio: "audio/14_foundWillie.m4a", 
       choice1:
@@ -170,7 +170,7 @@ var myData = [{
     },
       {
          id: 17,
-      story: "You make yourself look messy and start to lurch across the parking lot.  You hear a Zombie say \"Brains!\"  you repeat back to him \"Brains?\". You keep moving towards where you thought you heard Willie barking. You are safely hidden in an alleyway. Do you call out for Willie?",
+      story: "You make yourself look messy and start to lurch across the parking lot.  You hear a Zombie say, \"Brains!\"  You repeat back to him, \"Brains?\". You keep moving towards where you thought you heard Willie barking. You are safely hidden in an alleyway. Do you call out for Willie?",
       imageURL: "",
       audio: "audio/21_brains.m4a",
       choice1:
@@ -200,7 +200,7 @@ var myData = [{
     },
   {
      id: 20,
-      story: "You decide to go back down the alley towards the parking lot.  The Zombie sees you..  You are not acting like a Zombie now.  He shouts \"Brains!\" and eats you.  The End.",
+      story: "You decide to go back down the alleyway towards the parking lot.  The Zombie sees you..  You are not acting like a Zombie now.  He shouts \"Brains!\" and eats you.  The End.",
       imageURL: "",
       audio: "audio/24_gobackend.m4a",
     choice1:
