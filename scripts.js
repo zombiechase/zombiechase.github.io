@@ -16,11 +16,11 @@ var storyObject = {
 };
 
 //Initialize storyObject with the start of the story
-storyObject.story = myData[0].story;
-storyObject.image = myData[0].imageURL;
-storyObject.audio = myData[0].audio;
-storyObject.choice1 = myData[0].choice1;
-storyObject.choice2 = myData[0].choice2;
+storyObject.story = myData[21].story;
+storyObject.image = myData[21].imageURL;
+storyObject.audio = myData[21].audio;
+storyObject.choice1 = myData[21].choice1;
+storyObject.choice2 = myData[21].choice2;
 
 //Fill the page with the current information in storyObject
 document.getElementById("story").innerHTML = storyObject.story;
