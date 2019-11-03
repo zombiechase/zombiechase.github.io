@@ -42,6 +42,10 @@ function option1() {
 		//Call the fillPage function to fill the next page with the story
 		fillPage(newOption);
 	}
+	//Make sure button is back to Play Audio
+	document.getElementById("audioLabel").innerHTML = "Play Audio";
+	//Scroll to top
+	window.scrollTo(0, 0);
 }
 
 //When choice 2 is selected, fill page with the next part of the story
@@ -58,7 +62,10 @@ function option2() {
 		//Call the fillPage function to fill the next page with the story
 		fillPage(newOption);
 	}
-	
+	//Make sure button is back to Play Audio
+	document.getElementById("audioLabel").innerHTML = "Play Audio";
+	//Scroll to top
+	window.scrollTo(0, 0);
 }
 
 //Fill the page with the next part of the story based on the new page id
@@ -77,6 +84,7 @@ function fillPage(newOption) {
 	document.getElementById("option1").innerHTML = storyObject.choice1.label;
 	document.getElementById("option2").innerHTML = storyObject.choice2.label;
 
+	sound.pause();
 	sound = new Audio(storyObject.audio);
 }
 
