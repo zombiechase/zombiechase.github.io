@@ -24,8 +24,6 @@ header, footer {
 
 img {
     padding: 10px;
-    width:auto;
-    height:20em;
 }
 
 h1 {
@@ -47,6 +45,8 @@ img#image {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width:auto;
+    height:20em;
 }
 
 #story {
