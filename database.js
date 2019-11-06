@@ -141,7 +141,7 @@ var myData = [{
     {
       id: 14,
       story: "",
-      imageURL: "",
+      imageURL: "images/page14.png",
       audio: "",
       choice1:
           {newPageID: 21, label: "Return to Start"},

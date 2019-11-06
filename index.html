@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet/less" type="text/css" href="css/style.less"> 
     <title>Zombie Chase!</title>
 </head>
 <body>
@@ -19,9 +20,25 @@
     </header>
 
     <main>
-        <div>
-            <button id="audio" onClick="playAudio()"><span id="audioLabel">Play Audio</span> <i class="fa fa-volume-up"></i></button>
-        </div>
+        <!--marco Barria https://codepen.io/fixcl-->
+            <div class="container">
+
+                    <div class="left">
+                      <div class="uno"><div class="uno"><div class="uno"><div class="uno"></div></div></div></div>
+                      <div class="dos"><div class="dos"><div class="dos"><div class="dos"></div></div></div></div>
+                      <div class="tres"><div class="tres"><div class="tres"><div class="tres"></div></div></div></div>
+                      <div class="cuatro"><div class="cuatro"><div class="cuatro"><div class="cuatro"></div></div></div></div>
+                    </div>
+                    <div class="right">
+                      <div class="uno"><div class="uno"><div class="uno"><div class="uno"></div></div></div></div>
+                      <div class="dos"><div class="dos"><div class="dos"><div class="dos"></div></div></div></div>
+                      <div class="tres"><div class="tres"><div class="tres"><div class="tres"></div></div></div></div>
+                      <div class="cuatro"><div class="cuatro"><div class="cuatro"><div class="cuatro"></div></div></div></div>
+                    </div>
+                    <button id="audio" onClick="playAudio()"><span id="audioLabel">Play Audio</span> <i class="fa fa-volume-up"></i></button>
+
+            </div>
+
         <img id="image"></img>
         <div id="story">
         </div>
@@ -34,6 +51,7 @@
     <footer>
             <script type="text/javascript" src="database.js"></script>
             <script type="text/javascript" src="scripts.js"></script>
+            <script src="less.js" type="text/javascript"></script> 
     </footer>
 </body>
 </html>
