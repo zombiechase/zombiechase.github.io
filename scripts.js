@@ -76,7 +76,11 @@ function fillPage(newOption) {
 	storyObject.audio = myData[newOption].audio;
 	storyObject.choice1 = myData[newOption].choice1;
 	storyObject.choice2 = myData[newOption].choice2;
-	storyObject.currentScore += 10;
+	
+	if(newOption != 14 && newOption != 21 && newOption != 0) {
+		storyObject.currentScore += 10;
+		storyObject.story += "<p align='right'>Score: " + storyObject.currentScore;
+	}
 
 	//Fill the page with the new story information
 	document.getElementById("story").innerHTML = storyObject.story;
@@ -114,8 +118,6 @@ function endScreen(newOption) {
 	storyObject.audio = myData[newOption].audio;
 	storyObject.choice1 = myData[newOption].choice1;
 	storyObject.choice2 = myData[newOption].choice2;
-
-	console.log(storyObject.choice1);
 
 	//Set top scores
 	var scoreString = topScores();
