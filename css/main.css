@@ -111,7 +111,7 @@ button {
 .container {
   position: absolute;
   top: 0;
-  left: 60%;
+  left: 80%;
   margin-left: -10px;
   animation: inicio 3s ease-in-out forwards;
   margin-top: 1%;
@@ -121,11 +121,11 @@ button {
   background: rgba(0, 0, 0, 0.8);
   content: "";
   position: absolute;
-  top: -500px;
+  top: -1000px;
   left: -10%;
   margin-left: 9px;
   width: 1px;
-  height: 500px;
+  height: 1000px;
 }
 .container::before {
   background: #000000;
@@ -135,24 +135,24 @@ button {
   content: "";
   position: absolute;
   margin-top: -3px;
-  margin-left: -19px;
+  margin-left: -3px;
   width: 25px;
   height: 25px;
 }
 .left {
   position: absolute;
-  margin-left: -17px;
+  margin-left: -1px;
 }
 .right {
   position: absolute;
   transform: rotateY(180deg);
-  margin-left: -17px;
+  margin-left: -1px;
 }
 .uno,
 .dos,
 .tres,
 .cuatro {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.6);
   position: relative;
   width: 20px;
   height: 3px;
