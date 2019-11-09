@@ -128,7 +128,7 @@ var myData = [{
       choice2:
           {newPageID: 14, label: ""}     
     },
-                  {
+    {
       id: 13,
       story: "You found Willie!  He runs to your arms happily licking your face.  You find out that there is a movie studio filming a movie in town.  No wonder you saw all those strange creatures walking everywhere. The End.",
       imageURL: "images/page13.png",
@@ -141,37 +141,37 @@ var myData = [{
     {
       id: 14,
       story: "",
-      imageURL: "",
+      imageURL: "images/page14.png",
       audio: "",
       choice1:
-          {newPageID: 0, label: "Return to Start"},
+          {newPageID: 21, label: "Return to Start"},
       choice2:
-          {newPageID: 0, label: ""}     
+          {newPageID: 21, label: ""}     
     },
     {
       id: 15,
       story: "You hear a bark and climb down the tree. You move towards where you think you heard Willie.  You see several zombies walking in the parking lot ahead of you.   You might be able to get past them if you act like a Zombie too or you could take a longer way to avoid them. Do you pretend to be a Zombie?",
-      imageURL: "",
+      imageURL: "images/page15.png",
       audio: "audio/19_pretend.m4a",
       choice1:
           {newPageID: 17, label: "Yes"},
       choice2:
           {newPageID: 16, label: "No"}     
     },
-      {
+    {
       id: 16,
       story: "You make your way around the parking lot but you come to an open area with no place to hide. You are quickly spotted by a Zombie and he eats you.  The End. ",
-      imageURL: "",
+      imageURL: "images/page16.png",
       audio: "audio/20_spotted.m4a",
       choice1:
           {newPageID: 14, label: "End Game"},
       choice2:
           {newPageID: 14, label: ""}     
     },
-      {
-         id: 17,
+    {
+      id: 17,
       story: "You make yourself look messy and start to lurch across the parking lot.  You hear a Zombie say, \"Brains!\"  You repeat back to him, \"Brains?\". You keep moving towards where you thought you heard Willie barking. You are safely hidden in an alleyway. Do you call out for Willie?",
-      imageURL: "",
+      imageURL: "images/page17.png",
       audio: "audio/21_brains.m4a",
       choice1:
           {newPageID: 19, label: "Yes"},
@@ -181,32 +181,41 @@ var myData = [{
     {
       id: 18,
       story: "You quickly move down the alleyway to another street.  You think you see Willie just a little farther away. Do you go down the street?",
-      imageURL: "",
+      imageURL: "images/page18.jpg",
       audio: "audio/22_alley.m4a",
       choice1:
           {newPageID: 13, label: "Yes"},
       choice2:
           {newPageID: 20, label: "No"}     
     },
-      {
-         id: 19,
+    {
+      id: 19,
       story: "The Zombie from the parking lot hears you calling out.  He shouts \"Brains!\" and eats you.  The End.",
-      imageURL: "",
+      imageURL: "images/page19.jpg",
       audio: "audio/23_hearsyouend.m4a",
-    choice1:
+      choice1:
           {newPageID: 14, label: "End Game"},
       choice2:
           {newPageID: 14, label: ""}     
     },
-  {
-     id: 20,
+    {
+      id: 20,
       story: "You decide to go back down the alleyway towards the parking lot.  The Zombie sees you..  You are not acting like a Zombie now.  He shouts \"Brains!\" and eats you.  The End.",
-      imageURL: "",
+      imageURL: "images/page20.png",
       audio: "audio/24_gobackend.m4a",
-    choice1:
+      choice1:
           {newPageID: 14, label: "End Game"},
       choice2:
           {newPageID: 14, label: ""}     
+    },
+    {
+      id: 21,
+      story: "Choose the best option to survive. <br>Earn 10 points for each correct choice. <br>Good luck!<br>",
+      imageURL: "images/page21.png",
+      audio: "",
+      choice1:
+          {newPageID: 0, label: "Start"},
+      choice2:
+          {newPageID: 0, label: ""}     
     }
-
 ];

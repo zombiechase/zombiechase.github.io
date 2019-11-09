@@ -16,11 +16,11 @@ var storyObject = {
 };
 
 //Initialize storyObject with the start of the story
-storyObject.story = myData[0].story;
-storyObject.image = myData[0].imageURL;
-storyObject.audio = myData[0].audio;
-storyObject.choice1 = myData[0].choice1;
-storyObject.choice2 = myData[0].choice2;
+storyObject.story = myData[21].story;
+storyObject.image = myData[21].imageURL;
+storyObject.audio = myData[21].audio;
+storyObject.choice1 = myData[21].choice1;
+storyObject.choice2 = myData[21].choice2;
 
 //Fill the page with the current information in storyObject
 document.getElementById("story").innerHTML = storyObject.story;
@@ -42,6 +42,10 @@ function option1() {
 		//Call the fillPage function to fill the next page with the story
 		fillPage(newOption);
 	}
+	//Make sure button is back to Play Audio
+	document.getElementById("audioLabel").innerHTML = "Play Audio";
+	//Scroll to top
+	window.scrollTo(0, 0);
 }
 
 //When choice 2 is selected, fill page with the next part of the story
@@ -58,7 +62,10 @@ function option2() {
 		//Call the fillPage function to fill the next page with the story
 		fillPage(newOption);
 	}
-	
+	//Make sure button is back to Play Audio
+	document.getElementById("audioLabel").innerHTML = "Play Audio";
+	//Scroll to top
+	window.scrollTo(0, 0);
 }
 
 //Fill the page with the next part of the story based on the new page id
@@ -69,7 +76,11 @@ function fillPage(newOption) {
 	storyObject.audio = myData[newOption].audio;
 	storyObject.choice1 = myData[newOption].choice1;
 	storyObject.choice2 = myData[newOption].choice2;
-	storyObject.currentScore += 10;
+	
+	if(newOption != 14 && newOption != 21 && newOption != 0) {
+		storyObject.currentScore += 10;
+		storyObject.story += "<p align='right'>Score: " + storyObject.currentScore;
+	}
 
 	//Fill the page with the new story information
 	document.getElementById("story").innerHTML = storyObject.story;
@@ -77,6 +88,7 @@ function fillPage(newOption) {
 	document.getElementById("option1").innerHTML = storyObject.choice1.label;
 	document.getElementById("option2").innerHTML = storyObject.choice2.label;
 
+	sound.pause();
 	sound = new Audio(storyObject.audio);
 }
 
@@ -106,8 +118,6 @@ function endScreen(newOption) {
 	storyObject.audio = myData[newOption].audio;
 	storyObject.choice1 = myData[newOption].choice1;
 	storyObject.choice2 = myData[newOption].choice2;
-
-	console.log(storyObject.choice1);
 
 	//Set top scores
 	var scoreString = topScores();
