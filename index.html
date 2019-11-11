@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/main.css">
     <title>Zombie Chase!</title>
 </head>
-<body>
+<body onload="playIntro()">
     <header>
         <img src="images/logo.png" alt="logo">
         <h1>Zombie Chase</h1>
@@ -37,7 +37,7 @@
                     
             </div>
         <div>
-            <button id="audio" onClick="playAudio()"><span id="audioLabel">Play Audio</span> <i class="fa fa-volume-up"></i></button>
+            <button id="audio" onClick="playAudio()"><span id="audioLabel">Stop Audio</span> <i class="fa fa-volume-up"></i></button>
         </div>    
         <img id="image"></img>
         <div id="story">

@@ -212,7 +212,7 @@ var myData = [{
       id: 21,
       story: "Choose the best option to survive. <br>Earn 10 points for each correct choice. <br>Good luck!<br>",
       imageURL: "images/page21.png",
-      audio: "",
+      audio: "audio/0_intro.mp3",
       choice1:
           {newPageID: 0, label: "Start"},
       choice2:

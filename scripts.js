@@ -94,6 +94,9 @@ function fillPage(newOption) {
 
 //Plays the audio for the current page
 var	sound = new Audio(storyObject.audio);
+function playIntro() {
+	sound.play();
+}
 
 
 function playAudio() {
