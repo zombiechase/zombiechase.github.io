@@ -94,9 +94,8 @@ function fillPage(newOption) {
 
 //Plays the audio for the current page
 var	sound = new Audio(storyObject.audio);
-
 //Play intro music onload
-if (storyObject.audio == "audio/0_intro.mp3") {
+function playIntro() {
 	sound.play();
 }
 
